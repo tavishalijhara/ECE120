@@ -38,5 +38,5 @@ INNERLOOP   ADD   R5,R5,R1            ; Increment sum
 INPUT      .FILL  x0005               ; Input for X!, in this case X = 5
 ZERO       .FILL  x0000
 NEG1       .FILL  xFFFF               ; 2's complement of 1 (i.e. -1)
-RESULT     .FILL  x0000               ; At program completion, the result is
-.END                                  ;   stored here
+RESULT     .FILL  x0000               ; At program completion, the result is stored here
+.END
